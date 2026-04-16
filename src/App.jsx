@@ -46,18 +46,14 @@ const App = () => {
     console.log("useeffict is calling ")
   },[])
   useEffect(()=>{
-    console.log("second useeffect is calling ")
+    console.log("second useeffect is calling ");
+    console.log("hello brother ")
   },[])
-
-  const likeme = ()=>{
-    console.log("yes")
-  }
   return (
     <div>
           <h2>{count}</h2>
       <button onClick={()=>setcount(count+1)}>click me !</button>
       <button onClick={()=>setcount(count-1)}>dont click me </button>
-      <button onClick={likeme}>you like me !</button>
     </div>
   )
 }
