@@ -52,6 +52,7 @@ const App = () => {
     <div>
           <h2>{count}</h2>
       <button onClick={()=>setcount(count+1)}>click me !</button>
+      <button onClick={()=>setcount(count-1)}>dont click me </button>
     </div>
   )
 }
