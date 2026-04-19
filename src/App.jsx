@@ -56,6 +56,7 @@ const App = () => {
   return (
     <div>
           <h2>{count}</h2>
+          <h1>apple </h1>
       <button onClick={()=>setcount(count+1)}>click me !</button>
       <button onClick={()=>setcount(count-1)}>dont click me </button>
       <button onClick={likeme}>you like me !</button>
